@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gamified To-Do App</title>
+    <title>QuestMaster: Gamified Task Manager</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Gamified To-Do App</h1>
+        <div class="header">
+            <h1>QuestMaster: Gamified Task Manager</h1>
+            <div class="fox-icon"></div>
+        </div>
         <div id="task-list">
             <!-- Task items will be added here -->
         </div>
-        <input type="text" id="task-input" placeholder="Add a new task">
-        <button id="add-task-btn">Add Task</button>
-        <div id="points">Points: 0</div>
-        <div id="level">Level: 1</div>
+        <div class="add-task">
+            <input type="text" id="task-input" placeholder="Add a new task">
+            <button id="add-task-btn">Add Task</button>
+        </div>
+        <div class="stats">
+            <div id="points">Points: 0</div>
+            <div id="level">Level: 1</div>
+        </div>
         <div id="rewards">
             <!-- Rewards will be displayed here -->
         </div>
